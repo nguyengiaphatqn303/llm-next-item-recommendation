@@ -1,0 +1,22 @@
+{
+  "epochs": 50,
+  "stopping_step": 5,
+  "learning_rate": 0.001,
+  "embedding_size": 64,
+  "hidden_size": 64,
+  "num_layers": 1,
+  "dropout_prob": 0.3,
+  "loss_type": "CE",
+  "max_item_list_length": 20,
+  "train_batch_size": 256,
+  "eval_batch_size": 256,
+  "valid_metric": "NDCG@10",
+  "topk": [
+    10,
+    100
+  ],
+  "split": "leave-one-out validation and test",
+  "order": "temporal",
+  "evaluation_mode": "full",
+  "seed": 42
+}

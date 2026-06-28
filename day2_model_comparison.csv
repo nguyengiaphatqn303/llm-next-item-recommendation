@@ -1,0 +1,4 @@
+model,runtime_seconds,valid_recall@10,test_recall@10,valid_mrr@10,test_mrr@10,valid_ndcg@10,test_ndcg@10,valid_hit@10,test_hit@10,valid_precision@10,test_precision@10,valid_recall@100,test_recall@100
+Most Popular,10.428,0.0154,0.0118,0.0034,0.0029,0.0062,0.005,0.0154,0.0118,0.0015,0.0012,0.0818,0.0581
+ItemKNN,12.079,0.0474,0.0225,0.0187,0.013,0.0252,0.0152,0.0474,0.0225,0.0047,0.0023,0.1682,0.1434
+GRU4Rec,12.399,0.0545,0.0486,0.0231,0.0155,0.0304,0.023,0.0545,0.0486,0.0055,0.0049,0.2915,0.2393
